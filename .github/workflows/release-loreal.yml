@@ -39,6 +39,8 @@ jobs:
         git add package.json
         git commit -m "release($FULL_VERSION): released $FULL_VERSION"
 
+        echo "full_version=${FULL_VERSION}" >> $GITHUB_OUTPUT
+
     - name: Create and push git tag
       run: |
         TAG_NAME="release-loreal/v${{ steps.version_commit.outputs.full_version }}"
