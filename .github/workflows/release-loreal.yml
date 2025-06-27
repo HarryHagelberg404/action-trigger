@@ -47,5 +47,5 @@ jobs:
         git push origin "$TAG_NAME"
 
     - name: Push version to Github
-      run: git push origin master
+      run: git push origin main
 
