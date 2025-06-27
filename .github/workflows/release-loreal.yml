@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-        ref: loreal
+        ref: main
         fetch-tags: true
         token: ${{secrets.MT_GITHUB_TOKEN}}
 
