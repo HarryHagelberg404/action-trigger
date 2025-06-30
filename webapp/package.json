@@ -1,6 +1,6 @@
 {
   "name": "react-intro",
-  "version": "2.1.0",
+  "version": "2.1.0+c1384e9",
   "private": true,
   "scripts": {
     "dev": "next dev",
